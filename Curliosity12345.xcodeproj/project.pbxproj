@@ -11,6 +11,14 @@
 		BD608D152734A821003DBFE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD608D142734A821003DBFE6 /* ContentView.swift */; };
 		BD608D172734A823003DBFE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD608D162734A823003DBFE6 /* Assets.xcassets */; };
 		BD608D1A2734A823003DBFE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD608D192734A823003DBFE6 /* Preview Assets.xcassets */; };
+		BD608D212734ADBA003DBFE6 /* FingerPaint-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD608D202734ADBA003DBFE6 /* FingerPaint-Regular.ttf */; };
+		BDFEEFE12734B45400F9A5A5 /* HairStrandImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEEFE02734B45400F9A5A5 /* HairStrandImage.swift */; };
+		BDFEEFE92734B5D500F9A5A5 /* CurliosityMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEEFE82734B5D500F9A5A5 /* CurliosityMacApp.swift */; };
+		BDFEEFEB2734B5D500F9A5A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEEFEA2734B5D500F9A5A5 /* ContentView.swift */; };
+		BDFEEFED2734B5D600F9A5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFEEFEC2734B5D600F9A5A5 /* Assets.xcassets */; };
+		BDFEEFF02734B5D600F9A5A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFEEFEF2734B5D600F9A5A5 /* Preview Assets.xcassets */; };
+		BDFEEFF52734B5F900F9A5A5 /* HairStrandImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEEFE02734B45400F9A5A5 /* HairStrandImage.swift */; };
+		BDFEEFF62734B65100F9A5A5 /* FingerPaint-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD608D202734ADBA003DBFE6 /* FingerPaint-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,10 +27,26 @@
 		BD608D142734A821003DBFE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD608D162734A823003DBFE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD608D192734A823003DBFE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD608D202734ADBA003DBFE6 /* FingerPaint-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FingerPaint-Regular.ttf"; sourceTree = "<group>"; };
+		BDFEEFDF2734AE4500F9A5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDFEEFE02734B45400F9A5A5 /* HairStrandImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairStrandImage.swift; sourceTree = "<group>"; };
+		BDFEEFE62734B5D500F9A5A5 /* CurliosityMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurliosityMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFEEFE82734B5D500F9A5A5 /* CurliosityMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurliosityMacApp.swift; sourceTree = "<group>"; };
+		BDFEEFEA2734B5D500F9A5A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDFEEFEC2734B5D600F9A5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDFEEFEF2734B5D600F9A5A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDFEEFF12734B5D600F9A5A5 /* CurliosityMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CurliosityMac.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BD608D0C2734A821003DBFE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFEEFE32734B5D500F9A5A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				BD608D112734A821003DBFE6 /* Curliosity12345 */,
+				BDFEEFE72734B5D500F9A5A5 /* CurliosityMac */,
 				BD608D102734A821003DBFE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				BD608D0F2734A821003DBFE6 /* Curliosity12345.app */,
+				BDFEEFE62734B5D500F9A5A5 /* CurliosityMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +77,13 @@
 		BD608D112734A821003DBFE6 /* Curliosity12345 */ = {
 			isa = PBXGroup;
 			children = (
+				BDFEEFDF2734AE4500F9A5A5 /* Info.plist */,
 				BD608D122734A821003DBFE6 /* Curliosity12345App.swift */,
 				BD608D142734A821003DBFE6 /* ContentView.swift */,
+				BD608D202734ADBA003DBFE6 /* FingerPaint-Regular.ttf */,
 				BD608D162734A823003DBFE6 /* Assets.xcassets */,
 				BD608D182734A823003DBFE6 /* Preview Content */,
+				BDFEEFE02734B45400F9A5A5 /* HairStrandImage.swift */,
 			);
 			path = Curliosity12345;
 			sourceTree = "<group>";
@@ -63,6 +92,26 @@
 			isa = PBXGroup;
 			children = (
 				BD608D192734A823003DBFE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDFEEFE72734B5D500F9A5A5 /* CurliosityMac */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEEFE82734B5D500F9A5A5 /* CurliosityMacApp.swift */,
+				BDFEEFEA2734B5D500F9A5A5 /* ContentView.swift */,
+				BDFEEFEC2734B5D600F9A5A5 /* Assets.xcassets */,
+				BDFEEFF12734B5D600F9A5A5 /* CurliosityMac.entitlements */,
+				BDFEEFEE2734B5D600F9A5A5 /* Preview Content */,
+			);
+			path = CurliosityMac;
+			sourceTree = "<group>";
+		};
+		BDFEEFEE2734B5D600F9A5A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEEFEF2734B5D600F9A5A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -87,6 +136,23 @@
 			productReference = BD608D0F2734A821003DBFE6 /* Curliosity12345.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BDFEEFE52734B5D500F9A5A5 /* CurliosityMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFEEFF22734B5D600F9A5A5 /* Build configuration list for PBXNativeTarget "CurliosityMac" */;
+			buildPhases = (
+				BDFEEFE22734B5D500F9A5A5 /* Sources */,
+				BDFEEFE32734B5D500F9A5A5 /* Frameworks */,
+				BDFEEFE42734B5D500F9A5A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurliosityMac;
+			productName = CurliosityMac;
+			productReference = BDFEEFE62734B5D500F9A5A5 /* CurliosityMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +164,9 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					BD608D0E2734A821003DBFE6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					BDFEEFE52734B5D500F9A5A5 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -116,6 +185,7 @@
 			projectRoot = "";
 			targets = (
 				BD608D0E2734A821003DBFE6 /* Curliosity12345 */,
+				BDFEEFE52734B5D500F9A5A5 /* CurliosityMac */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +195,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD608D212734ADBA003DBFE6 /* FingerPaint-Regular.ttf in Resources */,
 				BD608D1A2734A823003DBFE6 /* Preview Assets.xcassets in Resources */,
 				BD608D172734A823003DBFE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFEEFE42734B5D500F9A5A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFEEFF62734B65100F9A5A5 /* FingerPaint-Regular.ttf in Resources */,
+				BDFEEFF02734B5D600F9A5A5 /* Preview Assets.xcassets in Resources */,
+				BDFEEFED2734B5D600F9A5A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +220,17 @@
 			files = (
 				BD608D152734A821003DBFE6 /* ContentView.swift in Sources */,
 				BD608D132734A821003DBFE6 /* Curliosity12345App.swift in Sources */,
+				BDFEEFE12734B45400F9A5A5 /* HairStrandImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFEEFE22734B5D500F9A5A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFEEFEB2734B5D500F9A5A5 /* ContentView.swift in Sources */,
+				BDFEEFF52734B5F900F9A5A5 /* HairStrandImage.swift in Sources */,
+				BDFEEFE92734B5D500F9A5A5 /* CurliosityMacApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +363,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Curliosity12345/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Curliosity12345/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +392,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Curliosity12345/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Curliosity12345/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,6 +408,60 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDFEEFF32734B5D600F9A5A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CurliosityMac/CurliosityMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CurliosityMac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tnstate.hbcuc2.CurliosityMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BDFEEFF42734B5D600F9A5A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CurliosityMac/CurliosityMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CurliosityMac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.tnstate.hbcuc2.CurliosityMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -334,6 +482,15 @@
 			buildConfigurations = (
 				BD608D1E2734A823003DBFE6 /* Debug */,
 				BD608D1F2734A823003DBFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFEEFF22734B5D600F9A5A5 /* Build configuration list for PBXNativeTarget "CurliosityMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFEEFF32734B5D600F9A5A5 /* Debug */,
+				BDFEEFF42734B5D600F9A5A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
